@@ -1,0 +1,75 @@
+\documentclass[
+    a4paper,    % Página do tipo a4
+    12pt,       % Fonte padrão 12pt
+    oneside     % Imprimir de apenas um lado da folha
+]{article}
+
+\input{structure/package}   % Chamando arquivos de pacotes
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                  dados da universidade               %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\universidade{Universidade Estadual Vale do Acaraú}
+\universidadesigla{uva}
+\universidadecentro{Centro de Ciências Exatas e Tecnologia}
+\universidadecentrosigla{ccet}
+\universidadedepartamento{departamento de licenciatura em física}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                  seus da instituição                  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Deixe vazio "sp" e "subtitulo" se não houver subtitulo
+
+\nome{Fulano da silva  Júnior}
+\disciplina{laboratório de eletricidade e magnetismo II}
+\titulo{Titulo aqui}\sp{:}  
+\subtitulo{Subtitulo impresso aqui}
+\professor{Profa. Dra. Fulana da Silva Júnior}
+\curso{licenciatura em Física}
+\local{Sobral/CE}
+\ano{2022}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                        conteúdos                     %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\conteudos{     % Coloque os seus novos arquivos aqui.
+    \newcont{01-introducao.tex}
+    \newcont{02-objetivos.tex}
+    \newcont{03-justificativas.tex}
+    \newcont{04-metodologia.tex}
+    \newcont{05-resultados.tex}
+    \newcont{06-conclusoes.tex}
+    
+    \bibliography{text/referencias.bib}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                        anexos                        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\anexos{    % Aceita imagens e PDF's (Apenas a primeira folha)
+    \anexo{small.pdf}{Há um PDF acima}{y}   % "y" para legenda
+    \anexo{small.pdf}{Há mais um PDF acima}{n}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                  começo do documento                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+    
+    \imprimircapa               % Imprimi a capa
+    \imprimircontracapa         % Imprimi a conta capa
+    
+    \imprimirlistadefiguras     % Imprimi lista de figuras
+    \imprimirlistadetabelas     % Imprimi lista de tabelas
+    \imprimirsumario            % Imprimi o sumário
+    
+    \imprimirconteudos          % Imprimi os conteúdos
+    
+    \imprimiranexos             % Imprimi os anexos
+    
+\end{document}
