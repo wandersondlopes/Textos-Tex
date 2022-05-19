@@ -1,0 +1,210 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\addto\captionsbrazilian{}
+
+\begin{document}
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\normalsize MINHA FACULDADE}\\[1.0cm] % Name of your university/college
+\textsc{\Large MEU CURSO}\\[0.2cm] % Major heading such as course name
+\textsc{\large Laboratório de química}\\[0.2cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \huge \bfseries \LARGE{RELATÓRIO DE ATIVIDADE EXPERIMENTAL Nº03} \\ [1.0cm]
+\emph{\large{Técnicas para determinação de volume e determinação de densidade de objetos}}
+}\\[0.4cm] % Title of your document
+\HRule \\[1.0cm]
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushleft} \large
+%\emph{Alunos:}\\
+%André Luiz Silveira Lucas %\textsc{Smith} % Your name
+%Rafael 
+%\end{flushleft}
+%\end{minipage}
+%~
+
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushright} \large
+%\emph{Supervisor:} \\
+%Dr. James \textsc{Smith} % Supervisor's Name
+%\end{flushright}
+%\end{minipage}\\[2cm]
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+\flushleft \Large \emph{Alunos:}\\ 
+João Marcos\\ 
+Maria Mara \\ % Your name
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+
+\center {\large 26 de Agosto, 2015}\\[2cm] % Date, change the \today to a set date if you want to be precise
+
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION
+%----------------------------------------------------------------------------------------
+
+\includegraphics[scale = 0.3]{logo.jpg}\\[1cm] % Include a department/university logo - this will require the graphicx package
+ 
+%---------------------------------------------------------------------------------------- FOLHA DE ROSTO
+
+\begin{titlepage}
+\vfill
+\begin{center} 
+{\large João Marcos \\  [0.1cm]
+Maria Mara } \\[5cm] 
+{\Huge RELATÓRIO DE ATIVIDADE EXPERIMENTAL Nº03}\\[1cm]
+\hspace{.45\textwidth} % posicionando a minipage
+\begin{minipage}{.5\textwidth}
+Técnicas para determinação de volume e determinação de densidade de objetos
+\end{minipage}
+\vfill
+26 de Agosto, 2015
+\end{center}
+\end{titlepage}
+
+%-------------------------------------------------------------------
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+\section{Resumo}
+\textit{Neste relatório estão descritos os procedimentos e cálculos realizados para aferir volume de líquidos em vidrarias e de corpos diversos imersos nestes líquidos. Posteriormente, são apresentados os resultados da prática, bem como as devidas considerações sobre algumas posturas a serem evitadas durante a aferição do volume que podem prejudicar a precisão dos dados.}\\[1.0cm]
+
+\section{Introdução}
+
+\paragraph*{}
+Uma boa prática laboratorial é alcançada quando se sabe corretamente o uso dos materiais para aferição de medidas, das vidrarias mais comuns e principalmente das substâncias químicas que estão à disponibilidade para o experimento. Além disto, é essencial entender de suas características físico-químicas quando se espera manipulá-las segundo a necessidade.
+\paragraph*{}
+As práticas propõem que o aluno, através da experimentação e da pesquisa empírica, desenvolva suas próprias conclusões sobre o objeto de estudo, além de serem oportunidade de troca de oportunidades com o grupo de trabalho e estudo. 
+\paragraph*{}
+O laboratório de química conta com uma diversidade de equipamentos e vidrarias à disposição do aluno. Geralmente, quando se necessita realizar alguma medida de massa pode ser utilizada uma \textit{balança de precisão}, mas quando se necessita calcular o volume de um corpo sólido, por exemplo, não existe um equipamento especificamente projetado para isto. 
+\paragraph*{}
+Logo, surge a necessidade de desenvolver técnicas de determinação de volume de corpos sólidos. É notório que existem diversas fórmulas matemáticas à disposição para uma aplicação direta, dadas as devidas medidas de cálculo, como o comprimento, largura e altura, ou então o raio, no caso de algum objeto circular ou esférico. Todavia, um estudo sobre a flutuação destes objetos em água poderá também determinar o volume pretendido, visto que quando imersos em água há um deslocamento do líquido. 
+\paragraph*{}
+Logo, uma forma interessante de determinar a densidade dos objetos através do cálculo do volume é aplicando ambas as variáveis, massa \textit{m} e volume \textit{V}, na equação da densidade de um corpo, que relaciona a massa do corpo e seu volume, dada por: $d = \frac{m}{V}$.
+\paragraph*{}
+Este relatório mostra os cálculos realizados para determinar matematicamente o volume e a densidade dos sólidos, além de apresentar uma série de dados empíricos que corroborem as equações matemáticas e uma descrição breve dos procedimentos necessários para se chegar à medida aproximada do volume pretendido.  
+    
+
+
+\section{Desenvolvimento}
+\label{sec:examples}
+
+\subsection{Cálculo do volume por meio de equações matemáticas}
+\paragraph{}
+\begin{itemize}
+\item Dada uma esfera de raio \textit{r}, o volume da esfera é: $V = \frac{4 \pi r^3 }{3}$.
+
+\item Dado um cubo de aresta \textit{a}, seu volume é: $ V = a^3 $
+
+\item Dado um paralelepípedo de dimensões \textit{a}, \textit{b} e \textit{c}, seu volume é: $V = abc$
+
+\item Dado um cilindo de raio da base \textit{r} e altura \textit{h}, seu volume é: $ V = \pi r^2h$
+
+\end{itemize}
+
+Estas fórmulas matemáticas são suficientes para determinação do volume dos objetos do experimento, desde que se conheça ou seja capaz de determinar as medidas dos sólidos. Portanto, é uma boa técnica de determinação de volume de corpos sólidos. 
+
+\subsection{Apresentação da prática}
+	A leitura do volume pode ser realizada através do cálculo da movimentação de volume dentro de um recipiente como a proveta, por exemplo, e através desta medida é possível determinar o volume do sólido.
+    Para tal, inicialmente é necessário se atentar que o aparelho deve estar na posição vertical para que o efeito de \textit{paralaxe} (deslocamento de um objeto a depender do ponto de vista do observador) seja evitado. Feito isto, a medição do nível atual do líquido na proveta deve ser feita observando a borda inferior do \textit{menisco}, sempre que possível. 
+\subsubsection{Material:}
+\begin{itemize}
+\item Proveta graduada de capacidade 500 ml e graduação 5 ml;
+\item Béquer de 40 ml;
+\item Água;
+\item 1 dado;
+\item 1 pilha alcalina;
+\item 1 esfera maciça pequena;
+\item 1 esfera maciça grande;
+\item 1 bloco pequeno de madeira;
+\item 1 pipeta graduada;
+\item 1 pipeta volumétrica de 25ml;
+\item 1 béquer;
+\item 1 erlenmeyer;
+\item 1 pêra de sucção;
+\item 1 balança de precisão;
+\end{itemize}
+
+\subsubsection{Procedimentos}
+	Primeiramente, foi testada a capacidade de uma pipeta graduada pipetando, com ajuda de uma pêra de sucção, 9ml de água de um béquer para o erlenmeyer. Em seguida, após alguns testes com a pipeta graduada, o mesmo foi feito com a pipeta volumétrica de 25ml. Foi observada uma notória diferença entre a precisão da pipeta graduada e da pipeta volumétrica, visto que, na volumétrica consegue-se mensurar, com precisão, a quantidade de 25 ml, enquanto que na pipeta graduada a precisão é muito inferior à outra. 
+    
+    Feito isto, prosseguiu-se para a segunda parte da prática, onde foi necessário pesar os objetos de estudo um por um em uma balança de precisão e determinar sua massa. Os valores estão listados abaixo: 
+  
+\begin{table}[]
+\centering
+\caption{Relação objeto-massa}
+\label{my-label}
+\begin{tabular}{ll}
+OBJETO           & MASSA(g) \\[0.01cm]
+Pilha            & 16,469   \\
+Dado             & 04,137   \\
+Bloco de Madeira & 12,407   \\
+Esfera pequena   & 10,942   \\
+Esfera grande    & 49,776  
+\end{tabular}
+\end{table}
+
+Em seguida, encheu-se a proveta  até o nível de 250ml, com água. Depois, cada objeto foi mergulhado na água e foi registrada a variação de nível em cada situação, e através disto foi possível calcular a densidade de cada um dos objetos. 
+
+\begin{itemize}
+\item Pilha: $$d = \frac{16,469}{7,5} \approx 2,195  \textit{ g/ml}$$
+\item Dado: $$d = \frac{4,137}{5} \approx 0,827  \textit{ g/ml}$$
+\item Bloco de madeira:$$ d = \frac{12,407}{55} \approx 0,225  \textit{ g/ml}$$
+\item Esfera pequena: $$d = \frac{10,942}{10} \approx 1,094  \textit{ g/ml}$$
+\item Esfera grande: $$d = \frac{49,776}{65} \approx 0,765 \textit{ g/ml}$$
+
+\end{itemize}
+\begin{table}[]
+\centering
+\caption{Volumes e densidades}
+\label{my-label}
+\begin{tabular}{llll}
+OBJETO           & Variação de nível($ml$) & Volume($cm^3$) & Densidade($g/ml$) \\
+Pilha            & 7,5                   & 7,5                          & 2,195           \\
+Dado             & 5                     & 5                            & 0,827           \\
+Bloco de Madeira & 55                    & 55                           & 0,225           \\
+Esfera pequena   & 10                    & 10                           & 0,765           \\
+Esfera grande    & 65                    & 65                           & 1,094          
+\end{tabular}
+\end{table}
+
+\vfill
+
+\section{Conclusão}
+Através do experimento foi verificado que a densidade de um objeto é uma característica única daquele objeto, e mesmo que sejam feitos do mesmo material, como as duas esferas da prática, devido à massas e volumes diferentes, a densidade se difere entre as duas. Microscopicamente, ter pouca densidade significa ter menos matéria concentrada dentro de um volume, ou seja, no caso estudado, a madeira é muito menos densa do que a pilha, logo, a pilha possui muito mais matéria do que a madeira, se considerarmos uma mesma fração de volume. 
+
+\section{Referências bibliográficas}
+\begin{itemize}
+\item BRADY, James E.; HUMISTON, Gerard E. \textit{Química geral}. 2ª edição. Rio de Janeiro: LTC, 1986. Volume 1.
+\end{itemize}
+
+\end{document}
