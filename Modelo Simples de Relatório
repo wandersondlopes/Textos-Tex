@@ -126,7 +126,7 @@ com as normas ABNT apresentado à comunidade de usuários \LaTeX.}
 \imprimircapa
 
 % Folha de rosto
-% (o * indica que haverá a ficha bibliográfica)
+% (O * indica que haverá a ficha bibliográfica)
 \imprimirfolhaderosto*
 
 % inserir o sumario
